@@ -15,5 +15,6 @@ while (i <= numberInphut) {
 
   }
   i++
-  return sum
+
 }
+  return sum

@@ -13,8 +13,8 @@ let i = 1;
 while (i < numberInphut) {
   factorial *=i;
   i++;
-  return factorial
+
 }
 
-
+  return factorial
 
