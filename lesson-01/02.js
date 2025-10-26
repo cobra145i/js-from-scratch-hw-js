@@ -16,5 +16,4 @@ while (i < n) {
 
 }
 
-  return factorial
 
