@@ -6,9 +6,8 @@
 
 // your code
 let sum = 0;
-let numberInphut = 20
 let i = 1
-while (i <= numberInphut) {
+while (i <= 20) {
   if (i % 2!==0) {
     sum+=i
   } else {
