@@ -15,5 +15,5 @@ while (i <= numberInphut) {
 
   }
   i++
-  console.log(sum)
+  return sum
 }
