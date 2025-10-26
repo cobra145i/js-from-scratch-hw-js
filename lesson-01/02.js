@@ -7,10 +7,10 @@
 
 // your code
 
+let n = 10;
 let factorial = 1;
-let numberInphut = 10;
 let i = 1;
-while (i < numberInphut) {
+while (i < n) {
   factorial *=i;
   i++;
 
