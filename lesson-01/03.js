@@ -6,13 +6,15 @@
 
 // your code
 let sum = 0;
+let numberInphut = 20
 let i = 1
-while (i <= 20) {
-  if (i % 2 !== 0) {
-    sum += i
+while (i <= numberInphut) {
+  if (i % 2!==0) {
+    sum+=i
   } else {
 
   }
   i++
 
 }
+  return sum
