@@ -13,8 +13,7 @@ let i = 1;
 while (i < numberInphut) {
   factorial *=i;
   i++;
-  console.log(factorial)
-
+  return factorial
 }
 
 
