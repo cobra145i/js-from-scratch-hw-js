@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../4"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "js-from-scratch-hw-js"
+	}
+}
