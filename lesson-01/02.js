@@ -8,7 +8,7 @@
 // your code
 
 let factorial = 1;
-let numberInphut = 6;
+let numberInphut = 10;
 let i = 1;
 while (i < numberInphut) {
   factorial *=i;
