@@ -11,10 +11,10 @@
 let n = 10;
 let factorial = 1;
 let i = 1;
-while (i < n) {
+while (i <= n) {
   factorial *= i;
   i++;
 
 }
-
+return factorial
 
