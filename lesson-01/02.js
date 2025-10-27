@@ -9,13 +9,15 @@
 
 
 let n = 10;
-let factorial = 1;
+let factorialNumber = 1;
 let i = 1;
+let factorial;
 while (i <= n) {
-  factorial *= i;
+  factorialNumber *= i;
   i++;
-
+  
 }
 
+factorial=factorialNumber
 
 
