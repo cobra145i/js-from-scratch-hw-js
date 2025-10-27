@@ -10,9 +10,9 @@
 
 let n = 10;
 let i = 1;
-let factorial=1;
+let factorial;
 while (i <= 10) {
 factorial *= i;
 i++; 
 }
-console.log(factorial)
+return factorial;
