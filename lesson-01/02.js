@@ -8,11 +8,7 @@
 // your code
 
 
+let factorial = 1;
 let n = 10;
-let i = 1;
-let factorial;
-while (i <= 10) {
-factorial *= i;
-i++; 
-}
-return factorial;
+
+while (n) factorial*= (n--);
