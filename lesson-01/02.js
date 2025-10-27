@@ -12,3 +12,4 @@ let factorial = 1;
 let n = 10;
 
 while (n) factorial*= (n--);
+return factorial
