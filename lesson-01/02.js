@@ -9,15 +9,10 @@
 
 
 let n = 10;
-let factorialNumber = 1;
 let i = 1;
-let factorial;
-while (i <= n) {
-  factorialNumber *= i;
-  i++;
-  
+let factorial=1;
+while (i <= 10) {
+factorial *= i;
+i++; 
 }
-
-factorial=factorialNumber
-
-
+console.log(factorial)
