@@ -11,5 +11,8 @@
 let factorial = 1;
 let n = 10;
 
-while (n) factorial*= (n--);
+while (n > 1) {
+  factorial *= n;
+  n--;
+}
 return factorial
