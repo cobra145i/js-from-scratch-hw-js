@@ -9,4 +9,3 @@ while (number >= i) {
     sum +=i;
     ++i;
 }
- return sum
