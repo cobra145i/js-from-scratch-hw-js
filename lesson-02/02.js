@@ -9,7 +9,7 @@
 
 let dice1 = Math.round(Math.random() * 7)// your code
 let dice2 = Math.round(Math.random() * 7)// your code
-let isWinningDouble= false
+let isWinningDouble
 
 
 console.log('Первый бросок: ' + dice1)
@@ -18,6 +18,7 @@ if (isWinningDouble ==false && (dice1 > 3 && dice2 > 3 && dice1==dice2)) {
   isWinningDouble=true
   console.log('Выигрышный дубль!')
 } else {
+    isWinningDouble=false
   console.log('Не выигрышный дубль.')
 }
 
