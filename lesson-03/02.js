@@ -2,10 +2,7 @@
 // Функция должна возвращать true, если число чётное, и false — в противном случае
 
 function isEven(a) {
+    return a % 2 ===0;
 
-    if (a % 2 !== 0) {
-        return false
-    } else {
-        return true
-    }
 }
+
