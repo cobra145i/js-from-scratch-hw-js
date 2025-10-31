@@ -2,7 +2,8 @@
 // Функция должна возвращать true, если число чётное, и false — в противном случае
 
 function isEven(a) {
-    return a % 2 ===0;
+    console.log(a % 2 ==0);
 
 }
 
+isEven(2)
