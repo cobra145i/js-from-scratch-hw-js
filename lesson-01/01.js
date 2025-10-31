@@ -6,6 +6,7 @@ let sum = 0;
 let number = 20;
 let i = 1;
 while (number >= i) {
-    sum +=i;
+    sum += i;
     ++i;
 }
+console.log(sum);
