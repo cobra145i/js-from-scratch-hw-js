@@ -21,8 +21,8 @@ function findCommonElements(arr, arr1) {
     let ArrayNew = []
     for (let i = 0; i < arr.length; i++) {
         const currentElement = arr[i]
-        if (findCommonElements(arr1, currentElement)) {
-            if (!findCommonElements(ArrayNew, currentElement)) {
+        if (includesElement(arr1, currentElement)) {
+            if (!includesElement(ArrayNew, currentElement)) {
                 ArrayNew.push(currentElement)
             }
 
@@ -34,7 +34,7 @@ function findCommonElements(arr, arr1) {
 
 }
 
-findCommonElements() 
+findCommonElements()
 
 
 
