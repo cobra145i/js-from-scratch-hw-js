@@ -34,7 +34,7 @@ function findCommonElements(arr, arr1) {
 
 }
 
-findCommonElements()
+findCommonElements([1, 2, 3], [2, 3, 4]) // [2, 3]
 
 
 
