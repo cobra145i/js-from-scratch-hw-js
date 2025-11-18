@@ -25,11 +25,16 @@ function findCommonElements(arr, arr1) {
             if (!findCommonElements(ArrayNew, currentElement)) {
                 ArrayNew.push(currentElement)
             }
+
         }
+
+
     }
     return ArrayNew
+
 }
 
+findCommonElements() 
 
 
-findCommonElements([1, 2, 3], [2, 3, 4])
+
