@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../ProjectCastaway"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "js-from-scratch-hw-js"
+	}
+}
