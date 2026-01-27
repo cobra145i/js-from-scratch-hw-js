@@ -24,21 +24,26 @@ const next = document.getElementById("next-button");
 const img = document.getElementById("web-tech-image"); // Исправлено здесь
 
 let currentIndex = 0;
+// Инициализация - установим первое изображение, если оно еще не установлено
+function initialize() {
+  // Проверяем, установлено ли уже изображение в HTML
+  const currentSrc = img.src;
+  const firstImageSrc = WEB_TECH_IMAGES[0];
 
+  // Если текущий src не совпадает с первым изображением, устанавливаем его
+  if (currentSrc !== firstImageSrc) {
+    img.src = firstImageSrc;
+  }
+}
 function updateImage() {
   img.src = WEB_TECH_IMAGES[currentIndex];
 }
-next.addEventListener("click", function() {
+next.addEventListener("click", function () {
   currentIndex = (currentIndex + 1) % WEB_TECH_IMAGES.length;
   updateImage();
 });
-prev.addEventListener("click", function() {
+prev.addEventListener("click", function () {
   currentIndex = (currentIndex - 1 + WEB_TECH_IMAGES.length) % WEB_TECH_IMAGES.length;
   updateImage();
 });
-updateImage();
-prev.addEventListener("click", function(){
-    currentIndex = (currentIndex - 1 + WEB_TECH_IMAGES.length) % WEB_TECH_IMAGES.length;
-  updateImage();
-})
-updateImage();
+initialize();
